@@ -1,0 +1,25 @@
+.Header {
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(75, 48, 75);
+  display: flex;
+}
+
+.Header img {
+  width: 6em;
+  height: 6em;
+  float: left;
+}
+
+.Header a {
+  text-align: center;
+  position: absolute;
+  right: 1vw;
+  top: 4vh;
+  color: white;
+  text-decoration: none;
+}
+
+.Header a:hover {
+  color: aquamarine;
+}

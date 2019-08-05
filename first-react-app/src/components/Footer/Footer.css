@@ -1,0 +1,18 @@
+.Footer {
+  width: 100vw;
+  height: 7vh;
+  background-color: rgb(189, 134, 134);
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+
+.Footer p {
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+
+.Header a:hover {
+  color: aquamarine;
+}

@@ -1,0 +1,35 @@
+.LeftNavigation {
+  float: left;
+  margin: 0;
+  height: 83vh;
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right bottom, gold, chocolate);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  font-size: 1em;
+  font-family: sans-serif;
+  background-color: white;
+  border: 2px solid black;
+  letter-spacing: 0.1em;
+  width: 5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  position: relative;
+  overflow: hidden;
+  margin: 0.5em;
+  cursor: pointer;
+}
+
+nav ul li span {
+  color: white;
+  mix-blend-mode: difference;
+}
