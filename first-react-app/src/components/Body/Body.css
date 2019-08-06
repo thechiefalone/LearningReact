@@ -119,4 +119,9 @@
 }
 .inputParagraph {
   color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5vh;
+  float: left;
+  margin-left: 10vw;
 }

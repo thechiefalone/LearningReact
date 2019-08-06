@@ -12,6 +12,7 @@ class Body extends React.Component {
     this.setState({
       InputValue: event.target.value
     });
+    this.props.titleValue(event.target.value);
   }
   render() {
     return (
@@ -28,10 +29,10 @@ class Body extends React.Component {
             }}
             type="text"
             name="input"
-            placeholder="Enter A Title"
+            placeholder="Just Write:)"
           />
         </form>
-        <p className="inputParagraph" />
+        <p className="inputParagraph">{this.state.InputValue}</p>
       </div>
     );
   }

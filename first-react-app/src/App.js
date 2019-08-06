@@ -11,7 +11,7 @@ class App extends React.Component {
       <div className="App">
         <Header />
         <LeftNavigation />
-        <Body />
+        <Body titleValue={x => this.setState({ title: x })} />
         <Footer />
       </div>
     );
