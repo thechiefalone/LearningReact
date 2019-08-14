@@ -1,0 +1,15 @@
+.app {
+  background: #eee;
+}
+.can-edit {
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+}
+.only-text {
+  background: transparent;
+  border: 0;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+}
