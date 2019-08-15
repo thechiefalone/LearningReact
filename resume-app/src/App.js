@@ -1,18 +1,27 @@
 import React from "react";
 import "./App.css";
+
 import Area from "./EditableArea/EditableArea";
+import Text from "./EditableText/EditableText";
 
 class App extends React.Component {
-  changeValue = value => {
+  areaValueHandler = value => {
     this.setState({
       areaValue: value
     });
   };
+  textValueHandler = value => {
+    this.setState({
+      textValue: value
+    });
+  };
   render() {
+    console.log(this.state);
     return (
       <div className="app">
-        <div>
-          <Area change={this.changeValue} />
+        <div className="container">
+          <Area change={this.areaValueHandler} />
+          <Text change={this.textValueHandler} />
         </div>
       </div>
     );
