@@ -1,49 +1,50 @@
-.app {
+.app{
   background: #eee;
 }
-.can-edit {
+.can-edit{
   color: gray;
 }
-.only-text {
+.only-text{
   background: transparent;
-  border: 0;
+  border: 0 ; 
   color: white;
 }
-.add-btn {
+.add-btn{
   display: inline-block;
+  float: right;
   border: 2px solid black;
   border-radius: 50%;
   font-weight: 700;
 }
 
-.comp {
+.comp{
   font-size: 30px;
   color: #555;
   line-height: 30px;
 }
-.title {
+.title{
   font-size: 24px;
   line-height: 24px;
   color: #888;
 }
-.exp {
+.exp{
   border-bottom: 2px solid #888;
   padding-bottom: 20px;
+
 }
-.exp input,
-textarea {
+.exp input,textarea{
   border-radius: 5px;
   border: 2px solid #888;
   margin: 5px 0;
 }
-.exp .only-text {
+.exp .only-text{
   color: black;
 }
-.exp textarea {
+.exp textarea{
   height: 150px;
   width: 300px;
 }
-.del-btn {
+.del-btn{
   float: right;
   border-radius: 2px;
   width: 40px;

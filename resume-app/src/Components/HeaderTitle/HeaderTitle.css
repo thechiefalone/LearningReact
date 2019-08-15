@@ -1,0 +1,25 @@
+.header{
+    background: #00358f;
+    padding: 45px 60px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.header .photo{
+    border: 8px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    background:#dde4f0;
+}
+
+.name{
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+}
+.prof{
+    font-size: 35px;
+    line-height: 35px;
+}
