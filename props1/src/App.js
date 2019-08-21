@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 
 import AddArticle from "./Components/AddArticle";
+import ArticleList from "./Components/ArticleList";
 
 class App extends React.Component {
   constructor(props) {
@@ -25,6 +26,11 @@ class App extends React.Component {
     return (
       <div className="p-4">
         <AddArticle getArticle={articleData => this.AddToList(articleData)} />
+        <ArticleList
+          list={this.state.listArticle}
+          deleteItemId={id => this.deleteItem(id)}
+          showItemId={id => this.showItem(id)}
+        />
       </div>
     );
   }

@@ -9,6 +9,16 @@ class ArticleList extends Component {
     };
   }
 
+  static getDerivedStateFromProps(props, state) {
+    if (props.list !== state.list) {
+      return {
+        list: props.list
+      };
+    } else {
+      return null;
+    }
+  }
+
   deleteItem = id => {
     this.props.deleteItem(id);
   };
@@ -33,3 +43,5 @@ class ArticleList extends Component {
     );
   }
 }
+
+export default ArticleList;
