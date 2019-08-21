@@ -26,6 +26,7 @@ class ArticleList extends Component {
     this.props.showItem(id);
   };
   render() {
+    console.log(this.state);
     return (
       <div className="d-flex">
         {this.state.list.map((item, index) => {
