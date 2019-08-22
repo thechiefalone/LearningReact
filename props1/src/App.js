@@ -21,6 +21,8 @@ class App extends React.Component {
     });
   };
 
+  deleteItem = id => {};
+
   render() {
     console.log(this.state);
     return (
